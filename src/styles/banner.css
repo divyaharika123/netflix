@@ -1,0 +1,53 @@
+.posterrbg {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+}
+
+.slick-slider {
+    width: 100% !important;
+    position: relative;
+}
+
+.slick-track {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem !important;
+}
+
+.slick-prev {
+    position: absolute !important;
+    top: 46% !important;
+    left: 1% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 1;
+    font-size: 2rem !important;
+}
+
+.slick-next {
+    position: absolute !important;
+    top: 46% !important;
+    right: 0% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.movie-card {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    border: 1px solid white;
+}
+
+.posterpath {
+    width: 100%;
+    transition: transform 450ms;
+}
+.posterpath:hover{
+    transform: scale(1.08);
+}
